@@ -7,94 +7,101 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title> Personal Experience and Advice for Travelling to Nepal </title>
+
+    <link rel="stylesheet" href="style.css">
+
+
 </head>
 
 <body>
-
-    <header> 
-        <h1> Explore Nepal </h1>
-        <img src = "../media/background.jpg" alt = " Website Background Image" width = "1000"> 
-
-        <nav>
-            <ul>
-                <li> <a href = "page1.html"> Home Page </a></li>
-                <li> <a href = "page2.html"> Travelling There </a> </li>
-                <li> <a href = "page3.html"> Personal Experience </a> </li>
-            </ul>
-        </nav>
-
-    </header>
-
-    <main>
-
-        <h2> 
-            Travel Advice + Personal Experience 
-        </h2>
-
-        <section>
-            <article>
-                <h2> How To Prep </h2>
-                <ul>
-                    <li> Read Articles and Things Online </li>
-                    <li> Ask other for tips and their advice </li>
-                    <li> Practice basic works so communication is easier </li>
-                </ul>
-                
-            </article>
-
-            <article>
-                <h2> Quote 1 </h2>
-
-                <img src = "../media/personalpic2.jpg" alt = " Own Picture of Pokhara" width="500" > 
-
-                <h2> Quote 2 </h2>
-            </article>
+    <div class = container>
+        <header>
+            <img src="../media/background2.jpg" alt="Explore Nepal logo" style="width: 100%"/>
             
-            <article>
-                <h2> Top 5 Things to Pack </h2>
-                <ul>
-                    <li> Clothes for all seasons </li>
-                    <li> Cash and coins </li>
-                    <li> Translator - book or phone </li>
-                    <li> Hat for the beaming sun</li>
-                    <li> Face mask for dust </li>
+            <div class = "top-right topnav">
+                <nav>
+                    <a href="page1.html">Home Page</a>
+                    <a href="page2.html">Travelling There</a>
+                    <a class="active" href="page3.html">Personal Experience</a>
+                 </nav>
+            </div>
+        </header>
 
-                </ul>
-               
-            </article>
-        </section>
+        <main>
+            <h1> Travel Advice + Personal Experience </h1>
+
+            <section>
+                <div class = row>
+                    <div class = "col border">
+                        <h2 class = center> How To Prep </h2>
+                        <ul>
+                            <li> Read Articles and Blogs Online </li>
+                            <li> Ask other for tips and their advice </li>
+                            <li> Practice basic words so communication is easier </li>
+                            <li> Watch Videos to see how it is there </li>
+                            <li> Learn about the culture </li>
+                            <li> Plan out places you want to see and go to</li>
+                        </ul>
+                    </div>
+
+                    <div class = col style="color: rgb(0, 0, 0)">
+                        <h2 class = center > "You meet and see new people, and your whole outlook on life changes" </h2>
+
+                        <img src = "../media/personalpic2.jpg" alt = " Own Picture of Pokhara" style="width: 100%" > 
+    
+                        <h2 class = center> "Going to a developing country from a powerful country will really teach you a lot" </h2>
+                    </div>
+
+                    <div class = "col border">
+                        <h2 class = center> What to Have </h2>
+                        <ul>
+                            <li> Clothes for all seasons </li>
+                            <li> Cash and coins </li>
+                            <li> Translator - book or phone </li>
+                            <li> Hat for the beaming sun</li>
+                            <li> Face mask for dust </li>
+                            <li> Contact number of someone you know or a travel agency</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
 
         <aside>
+            <div class = col>
+               
+                <div class = row>
+                    <div class = col>
+                        <img src = "../media/momme.jpg" alt = " Mom and Me Picture" style="width: 100%">
+                    </div>
+                    <div class = col>
+                        <img src = "../media/fam.jpg" alt = " Family Picture in Pokhara" style="width: 100%">
+                    </div>
+                </div>
+ 
+                <div class = "row center">
+                    <section>
+                        <h2> What I learned from Travelling </h2>
+                        <p> There are beautfiul places all around the world, and no matter where you have travelled, you will still be in awe of the new places you see</p>
+                        <p> Meeting and talking to people who expiernce a life so different from yours is the best way to grow as an indivisual</p>
+                    
+                        <h2> What I gained from Travelling </h2>
+                        <p> More confidence but at the same more self awareness and how to be humble </p>
+                        <p> Freindships, Love, and Experiences I could never gain elsewhere, Life long memeories, and most importantly, understanding myself better and becoming a better version of myself </p>
+                    </section> 
+                </div>
 
-            <figure>
-                <img src = "../media/momme.JPG" alt = " Mom and Me Picture" width = "300"> 
-            
-                <img src = "../media/fam.jpg" alt = " Family Picture in Pokhara" width = "300" > 
-            </figure>   
-            
-            <section>
-                <article>
-                    <h2> What I learned from Travelling </h2>
-                    <p> There are beautfiul places all around the world, and no matter where you have travelled, you will still be in awe of the new places you see</p>
-                    <p> Meeting and talking to people who expiernce a life so different from yours is the best way to grow as an indivisual</p>
-                </article>
-
-                <article>
-                    <h2> What I gained from Travelling </h2>
-                    <p> More confidence but at the same more self awareness and how to be humble </p>
-                    <p> Freindships, Love, Experinces I could never gain elsewhere, Life long memeories, and most importanatnly, understanding myself better and become a better version of myself </p>
-                </article>
-            </section>
-           
+            </div>
         </aside>
 
-    </main>
+        <footer class = footer>
+            <p> Aarya Kaphley </p>
+            <p> Syracuse, NY</p>
+            <p> 2020 </p>
+        </footer>
 
-    <footer>
-        <p> Aarya Kaphley </p>
-        <p> Syracuse, NY</p>
-        <p> 2020 </p>
-    </footer>
-    
+    </div>
+
+ 
 </body>
 </html>
