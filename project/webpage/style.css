@@ -71,3 +71,15 @@ h1 {
 .border {
     border: solid rgb(0, 0, 0);
 }
+
+.mid {
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
