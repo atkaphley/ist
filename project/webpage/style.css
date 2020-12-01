@@ -1,14 +1,17 @@
 .container {
     position: relative;
     color: black;
-    background-color: rgb(227, 214, 245);
+    background-color: rgb(255, 255, 255);
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px; 
+.logo {
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+    background: -webkit-linear-gradient(rgb(179, 229, 252), rgb(188, 127, 248), rgb(106, 74, 248));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .row {
@@ -27,6 +30,16 @@ h1 {
     text-align: center;
 }
 
+.space {
+    margin: 1em;
+}
+
+.top-margin {
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 
 .footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -39,38 +52,32 @@ h1 {
     padding-bottom: .5em;
 }
 
-
-.topnav {
-    overflow: hidden;
+.bold {
+    font-weight: bold;
+    font-size: smaller;
 }
 
-.topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bolder;
+
+
+.underline {
+    text-decoration: underline;
 }
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: #000000;
-    color: white;
-}
 
 .center {
     text-align: center;
 }
 
 .border {
-    border: solid rgb(0, 0, 0);
+   margin-top: 2em;
+   margin-bottom: 2em;
 }
+
+.top {
+    margin-top: 3em;
+}
+
+
 
 .mid {
     color: black;
@@ -82,4 +89,11 @@ img {
 
 video {
     width: 100%;
+    margin-bottom: 2em;
 }
+
+a, a:visited {
+    color: inherit;
+}
+
+
