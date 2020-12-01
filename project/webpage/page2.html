@@ -27,37 +27,31 @@
             <div class="d-flex flex-column flex-md-row align-items-center p-3 fixed-top px-md-4 mb-3 bg-white border-bottom shadow-sm bold">
                 <h5 class="my-0 mr-md-auto font-weight-normal logo">Explore Nepal</h5>
                 <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2 text-dark" href="page1.html">Home Page</a>
-                <a class="p-2 text-dark" href="page2.html">Travelling There</a>
-                <a class="p-2 text-dark" href="page3.html">Personal Experience</a>
+                  <a class="p-2 text-dark" href="page1.html">Home Page</a>
+                  <a class="p-2 text-dark" href="page2.html">Travelling There</a>
+                  <a class="p-2 text-dark" href="page3.html">Personal Experience</a>
                 </nav>
             </div>
         </header>
 
 
-
-
-
         <main style="padding-top: 1em;">
-            <h1> Travelling There </h1>
 
-           
+          <h1> Travelling There </h1>
+          <!--3 images on top-->
               <div class = row>
-                
                 <div class = "col space">
                   <figure>
                     <img src = "../media/sunrise.jpeg" alt = "Sunrise in Pokhara" style="border-radius: 50%;">
                     <figcaption class="center"> Watch Beautiful Sunrises on the Mountains</figcaption>
                   </figure>
                 </div>
-
                 <div class = "col space">
                   <figure>
                     <img src = "../media/elephant.jpeg" alt = "Riding and Elephant In Chitwan" style="border-radius: 50%;">
                     <figcaption class="center"> Visit and Ride on the Elephants in Chitwan</figcaption>
                   </figure>
                 </div>
-
                 <div class = "col space">
                   <figure>
                     <img src = "../media/hike.jpeg" alt = "Hiking Snowy Mountain" style="border-radius: 50%;">
@@ -66,183 +60,172 @@
                 </div>
               </div>
 
+              <!--line divider-->
               <hr class="featurette-divider">
               <br>
 
-                <div class = row>
-                    <div class = col>
-                        <img src = "../media/hiking.jpg" alt = "Hiking Mount Everest" style="border-radius: 1%;">
+                <!--4 collapse-->
+              <div class = row>
+                <div class = col>
+                  <div class="accordion" id="accordionExample">
+
+                    <!--first collapse-->
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Best Restaurants in Kathmandu
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <ol>
+                            <li> Fire and Ice
+                              <ul>
+                                <li> Situated on a luxury shopping street, the Fire and Ice pizzeria offers the best traditional Italian cuisine </li>
+                                <li> Location: 219 Sanchaya Kosh, Kathmandu, Nepal
+                                <li> Number: +97714250210 </li>
+                              </ul>
+                            </li>
+                            <li> Bhojan Griha
+                              <ul>
+                                <li> Built as a residence for a royal priest more than 150 years ago, the restaurant serves traditional Nepali food in charming surroundings. </li>
+                                <li> Location: Dilli Bazaar Kathmandu, Central Development Region, 44600, Nepal
+                                <li> Number: +97714416423 </li>
+                              </ul>
+                            </li>
+                          </ol>          
+                        </div>
+                      </div>
                     </div>
 
-                    <div class = col>
-                      <img src = "../media/hotel.jpg" alt = "Hotel in Kathmandu, Nepal" style="border-radius: 1%;" >
+                    <!--second collapse-->
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Best Restaurants in Pokhara
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <ol>
+                            <li> Fresh Elements
+                              <ul>
+                                <li> Fresh and welcoming, the restaurant, which is located below a lovely spa called Middle Path Spa, has a wide-ranging menu with lots of international options. </li>
+                                <li> Location: Middle Path Street, Central Lakeside </li>
+                                <li> Number: +977 61-455744</li>
+                              </ul>
+                            </li>
+                            <li> Krishna's Kitchen
+                              <ul>
+                                <li> A superb Thai restaurant with a mouthwatering menu (there's papaya salad, various curries, tom yam soup, galangal chicken soup, rice and noodle dishes, plus homemade chocolate mousse for dessert, among many other dishes).</li>
+                                <li> Location: Khapaundi Cove, Sarangkot-2 </li>
+                                <li> Number: +977 981-4104754</li>
+                              </ul>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
                     </div>
+
+                    <!--third collapse-->
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            Things to do
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <ul>
+                            <li> Trekking </li>
+                            <li> Panoramic Flight Over the Himalayas </li>
+                            <li> Visit Chitwan National Park </li> 
+                            <li> Exploring Pokhara </li> 
+                            <li> Mountain Biking in Kathmandu Valley</li>
+                            <li> Kathmandu Sightseeing Tour </li>
+                            <li> Mount Everest Helicopter Tour </li>
+                            <li> Bardia National Park </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--fourth collapse-->
+                    <div class="card">
+                      <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Things to see
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <ul>
+                            <li> Kathmandu: The bustling, slightly dusty and never boring capital and usually the first stop to find some of the best places to visit in Nepal.
+                            One of the best things about Kathmandu has to be the eclectic mix of temples, historic sites, shrines, restaurants and bustling streets. </li>
+                            <li> Nagarkot: For breathtaking views of the mighty Himalayas, head to this picturesque hill station in Nepal that really is one of the best places to visit in Nepal – especially if you love the mountains. </li>
+                            <li> Pokhara: On the shores of Lake Phewam it is best known for its unparalleled views of the snow-capped Annapurna Himalayan range. </li>
+                            <li> Sagarmatha National Park: Home of the largest mountain in the world, Mount Everest </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+
+              <!--2 images-->
+              <div class = row>
+                <div class = col>
+                    <img src = "../media/hiking.jpg" alt = "Hiking Mount Everest" style="border-radius: 1%;">
+                </div>
+                <div class = col>
+                  <img src = "../media/hotel.jpg" alt = "Hotel in Kathmandu, Nepal" style="border-radius: 1%;" >
+                </div>
+              </div>
             
         </main>
 
+        <!--row with links to external sites-->
         <aside class = border>
-            <div class = "row center">
-                <div class = col>
-                  <a class="btn btn-outline-dark" href="https://weather.com/weather/today/l/3eb968d7a06604b522f130b07342afa0c5728ddfc8a4ed54787b8676df413142" target="_blank" role="button"> Check Weather <br> in Nepal</a>
-                </div>
-                <div class = col>
-                  <a class="btn btn-outline-dark" href="https://www.travellersquest.com/blog/travel-agencies-in-nepal/" target="_blank" role="button"> Best Travel <br> and Tour Agencies</a>
-                </div>
-                <div class = col>
-                  <a class="btn btn-outline-dark" href="https://www.xe.com/currencyconverter/convert/?Amount=100&From=USD&To=NPR" target="_blank" role="button"> Check Nepal <br> Currency</a>
-                </div>
-                <div class = col>
-                  <a class="btn btn-outline-dark" href="https://www.welcomenepal.com/plan-your-trip/climate.html#:~:text=Nepal%20has%20five%20seasons%3A%20spring,C%20to%2023%C2%B0C." target="_blank" role="button"> Seasons in <br> Nepal</a>
-                </div>
-                <div class = col>
-                  <a class="btn btn-outline-dark" href="https://www.tripadvisor.com/Hotels-g293889-zff12-Nepal-Hotels.html" target="_blank" role="button"> The Best <br> Hotels</a>
-                </div>
+          <div class = "row center">
+            <div class = col>
+              <a class="btn btn-outline-dark" href="https://weather.com/weather/today/l/3eb968d7a06604b522f130b07342afa0c5728ddfc8a4ed54787b8676df413142" target="_blank" role="button"> Check Weather <br> in Nepal</a>
             </div>
+            <div class = col>
+              <a class="btn btn-outline-dark" href="https://www.travellersquest.com/blog/travel-agencies-in-nepal/" target="_blank" role="button"> Best Travel <br> and Tour Agencies</a>
+            </div>
+            <div class = col>
+              <a class="btn btn-outline-dark" href="https://www.xe.com/currencyconverter/convert/?Amount=100&From=USD&To=NPR" target="_blank" role="button"> Check Nepal <br> Currency</a>
+            </div>
+            <div class = col>
+              <a class="btn btn-outline-dark" href="https://www.welcomenepal.com/plan-your-trip/climate.html#:~:text=Nepal%20has%20five%20seasons%3A%20spring,C%20to%2023%C2%B0C." target="_blank" role="button"> Seasons in <br> Nepal</a>
+            </div>
+            <div class = col>
+              <a class="btn btn-outline-dark" href="https://www.tripadvisor.com/Hotels-g293889-zff12-Nepal-Hotels.html" target="_blank" role="button"> The Best <br> Hotels</a>
+            </div>
+          </div>
         </aside>
 
-
-        <main>
-        
-                <div class = row>
-                    <div class = col>
-                        <div class="accordion" id="accordionExample">
-                            <div class="card">
-                              <div class="card-header" id="headingOne">
-                                <h2 class="mb-0">
-                                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  Best Restaurants in Kathmandu
-                                  </button>
-                                </h2>
-                              </div>
-                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="card-body">
-                                            <ol>
-                                                <li> Fire and Ice
-                                                    <ul>
-                                                        <li> Situated on a luxury shopping street, the Fire and Ice pizzeria offers the best traditional Italian cuisine </li>
-                                                        <li> Location: 219 Sanchaya Kosh, Kathmandu, Nepal
-                                                        <li> Number: +97714250210 </li>
-                                                    </ul>
-                                                </li>
-                                                <li> Bhojan Griha
-                                                    <ul>
-                                                        <li> Built as a residence for a royal priest more than 150 years ago, the restaurant serves traditional Nepali food in charming surroundings. </li>
-                                                        <li> Location: Dilli Bazaar Kathmandu, Central Development Region, 44600, Nepal
-                                                        <li> Number: +97714416423 </li>
-                                                    </ul>
-                                                  </li>
-                                            </ol>
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="card">
-                              <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
-                                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Best Restaurants in Pokhara
-                                  </button>
-                                </h2>
-                              </div>
-                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                <div class="card-body">
-                                        <ol>
-                                            <li> Fresh Elements
-                                                <ul>
-                                                    <li> Fresh and welcoming, the restaurant, which is located below a lovely spa called Middle Path Spa, has a wide-ranging menu with lots of international options. </li>
-                                                    <li> Location: Middle Path Street, Central Lakeside </li>
-                                                    <li> Number: +977 61-455744</li>
-                                                </ul>
-                                            </li>
-                                            <li> Krishna's Kitchen
-                                                <ul>
-                                                    <li> A superb Thai restaurant with a mouthwatering menu (there's papaya salad, various curries, tom yam soup, galangal chicken soup, rice and noodle dishes, plus homemade chocolate mousse for dessert, among many other dishes).</li>
-                                                    <li> Location: Khapaundi Cove, Sarangkot-2 </li>
-                                                    <li> Number: +977 981-4104754</li>
-                                                </ul>
-                                            </li>
-                                        </ol>
-                                </div>
-                              </div>
-                            </div>
-
-                            
-                              <div class="card">
-                                <div class="card-header" id="headingThree">
-                                  <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                    Things to do
-                                    </button>
-                                  </h2>
-                                </div>
-                            
-                                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                  <div class="card-body">
-                          <ul>
-                              <li> Trekking </li>
-                              <li> Panoramic Flight Over the Himalayas </li>
-                              <li> Visit Chitwan National Park </li> 
-                              <li> Exploring Pokhara </li> 
-                              <li> Mountain Biking in Kathmandu Valley</li>
-                              <li> Kathmandu Sightseeing Tour </li>
-                              <li> Mount Everest Helicopter Tour </li>
-                              <li> Bardia National Park </li>
-                          </ul>
-                                    
-  
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="card">
-                                <div class="card-header" id="headingFour">
-                                  <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Things to see
-                                    </button>
-                                  </h2>
-                                </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                                  <div class="card-body">
-                                      <ul>
-                                          <li> Kathmandu: The bustling, slightly dusty and never boring capital and usually the first stop to find some of the best places to visit in Nepal.
-                                          One of the best things about Kathmandu has to be the eclectic mix of temples, historic sites, shrines, restaurants and bustling streets. </li>
-                                          <li> Nagarkot: For breathtaking views of the mighty Himalayas, head to this picturesque hill station in Nepal that really is one of the best places to visit in Nepal – especially if you love the mountains. </li>
-                                          <li> Pokhara: On the shores of Lake Phewam it is best known for its unparalleled views of the snow-capped Annapurna Himalayan range. </li>
-                                          <li> Sagarmatha National Park: Home of the largest mountain in the world, Mount Everest </li>
-                                      </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-
-
-                          </div>
-                    </div>
-                    
-                
-
-            
-        </main>
-
-        
+        <!--divider-->
         <hr class="featurette-divider">
 
-
-        
-
-        
+        <!-- FOOTER -->
+        <footer class="container">
+          <p class="float-right bold"><a href="#"> GO TO TOP </a> </p>
+          <p>&copy; Aarya Kaphley &middot; Syracuse, NY &middot;    2020</p>
+        </footer>       
           
-            <!-- FOOTER -->
-            <footer class="container">
-              <p class="float-right bold"><a href="#"> GO TO TOP </a> </p>
-              <p>&copy; Aarya Kaphley &middot; Syracuse, NY &middot;    2020</p>
-            </footer>
-          
-        
-          </div>
+    <!--container ends--> 
+    </div>
     
-
     <!--javascript for Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
